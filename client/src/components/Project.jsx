@@ -9,7 +9,7 @@ function Project() {
     })
 
     return(
-        <Container id="Project" className="py-5 project" data-aos="fade-up" data-aos-delay="200">   
+        <Container id="Project" className="py-5 project" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">   
             <h3 className='text-center'>Project</h3>  
             <div className='text-center d-flex justify-content-center'>
                 <hr className='col-2 mt-0'/>
