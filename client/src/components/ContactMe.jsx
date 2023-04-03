@@ -10,7 +10,7 @@ function ContactMe() {
     })
 
     return(
-        <Container fluid id="ContactMe" className="py-5 contactme" data-aos="fade-up" data-aos-delay="200">   
+        <Container fluid id="ContactMe" className="pb-4 pt-5 contactme" data-aos="fade-up" data-aos-delay="200">   
             <h3 className='text-center'>Get in Touch</h3>  
             <div className='text-center d-flex justify-content-center'>
                 <hr className='col-2 mt-0'/>

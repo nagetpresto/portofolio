@@ -18,21 +18,60 @@ function Project() {
                 to have a more practical experience with teamwork and collaborations. Most of them
                 are projects during my college life.</p>   
             <Row className='mt-5'>
-                {/* <Col xs={5} md={5} xl={5} className="about-left d-flex justify-content-center align-items-center">
-                    <Row className="">
-                        <Card className='about-card px-0 mx-0'>
-                            <Card.Img className='about-card-img' variant="top" src="/photo.jpg" />
-                            <Card.Body className='d-flex flex-column justify-content-center align-items-center'>
-                                <Card.Title>Bilqist Imeilia Az Zahra</Card.Title>
-                                <Card.Text className='text-center'>
-                                Fullstack Developer
-                                </Card.Text>
+                <Col xs={12} md={12} xl={12} className="about-left d-flex justify-content-center align-items-center">
+                    <div className="d-flex flex-column" style={{rowGap:'40px'}}>
+                        <Card className='project-card'>
+                            <Card.Body className='py-0 px-0 d-flex flex-row justify-content-center align-items-center'>
+                                <div className='project-img d-flex justify-content-center align-items-center col-5'>
+                                    <img className="" src='/vba.jpg'/>
+                                </div>
+                                <div className='project-body px-3 col-7'>
+                                    <h5>Data Entry, VBA Macro</h5>
+                                    <span>Last Company Project (2022)</span>
+                                    <hr/>
+                                    <p className="mb-4" style={{textAlign:'justify'}}>I was responsible for managing records of problems in production line.
+                                        To have a more efficient input process for the admin and a read-able report, I tried
+                                        to develope a data entry program using VBA Macro. I also tried to build a web-based
+                                        data entry using HTML, CSS, and PHP.
+                                    </p>
+                                    <a className="px-3 py-1 project col-5 d-flex justify-content-center align-items-center" 
+                                        href='https://drive.google.com/drive/folders/1PgiYKX6DPY5NnHn2UZo9RWHg90dAtWQx?usp=share_link'
+                                        target="_blank"
+                                        style={{cursor:'pointer', fontSize:'13px'}}
+                                        >Click to see more
+                                    </a>
+                                </div>
                             </Card.Body>
                         </Card>
-                    </Row>
+
+                        <Card className='project-card'>
+                            <Card.Body className='py-0 px-0 d-flex flex-row justify-content-center align-items-center'>
+                                <div className='project-img d-flex justify-content-center align-items-center col-5'>
+                                    <img className="" src='/gantry.jpg'/>
+                                </div>
+                                <div className='project-body px-3 col-7'>
+                                    <h5>Engineering Component Design</h5>
+                                    <span>Design and Analyze Fatigue Stress (2021)</span>
+                                    <hr/>
+                                    <p className="mb-4" style={{textAlign:'justify'}}>This project aims to
+                                        build a system that is useful for public health officers during Covid-19 outbreak.
+                                        In this project, I was responsible for doing 3d design using Solidworks.
+                                        I was also responsible for supporting in analyzing 
+                                        dimenssion and fatigue stress so that the system can hold a body up to 200kg.
+                                    </p>
+                                    <a className="px-3 py-1 project col-5 d-flex justify-content-center align-items-center" 
+                                        href='https://doi.org/10.36289/jtmi.v16i2.235'
+                                        target="_blank"
+                                        style={{cursor:'pointer', fontSize:'13px'}}
+                                        >Click to see more
+                                    </a>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Col>
 
-                <Col xs={7} md={7} xl={7} className="about-right d-flex justify-content-center align-items-center">
+                {/* <Col xs={7} md={7} xl={7} className="about-right d-flex justify-content-center align-items-center">
                     <Row className="">
                         <div className="introduction">
                             <p className='text' style={{textAlign:'justify'}}>

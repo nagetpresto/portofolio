@@ -198,9 +198,54 @@ a.contact-me:active, .btn.get-started:active, .btn-submit:active{
 /*--------------------------------------------------------------
 # Project
 --------------------------------------------------------------*/
-
 .project p{
     font-size: 14px;
+}
+
+.project-card{
+    width: 50rem!important;
+    height: 27rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)!important; */
+    box-shadow: none!important;
+    border-radius: 5px!important;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;  
+    font-size: 14px;  
+}
+
+.project-img{
+    height: 27rem;
+    overflow: hidden;
+}
+
+.project-body h5{
+    font-weight: 700;
+}
+
+.project-body hr{
+    border: solid 2px;
+}
+
+a.project{
+    text-decoration: none;
+    border: 3px solid #aba5eb;
+    font-size: 18px;
+    color:#ffffff;
+    background-color:#918BD7;
+    border-radius: 30px;
+    margin-right: auto;
+    transition: ease-in-out 0.3s;
+}
+
+a.project:hover{
+    color:#ffffff;
+    background-color:#7771b6;
+    border: 3px solid #aba5eb;
+}
+
+a.project:active{
+    color:#ffffff;
+    background-color:#7c75c5;
 }
 
 /*--------------------------------------------------------------
