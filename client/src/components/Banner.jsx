@@ -2,6 +2,7 @@ import 'aos/dist/aos.css';
 import 'animate.css';
 import AOS from 'aos';
 import { useEffect, useState } from "react";
+import { Link, scroller } from 'react-scroll';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 
 function Banner() {
@@ -20,7 +21,14 @@ function Banner() {
                         </p>
 
                         <div>
-                            <Button href="/About" variant="outline-secondary" className="animate__animated animate__fade animate__infinite col-7 col-xl-3 px-3 get-started d-flex justify-content-center align-items-center">Get Started</Button>
+                            <Button variant="outline-secondary"
+                                className="animate__animated animate__fade animate__infinite col-7 col-xl-3 px-3 get-started d-flex justify-content-center align-items-center"
+                                onClick={() => scroller.scrollTo('About', {
+                                    smooth: true,
+                                    offset: -150,
+                                    duration: 200,
+                                })}
+                                >Get Started</Button>
                         </div>
                     </Row>
                 </Col>

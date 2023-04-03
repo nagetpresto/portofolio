@@ -61,7 +61,14 @@ function NavBar() {
                             className="me-2">Project
                         </Nav.Link>
                         
-                        <a className="px-3 contact-me d-flex justify-content-center align-items-center" href="/">Contact Me</a>
+                        <a className="px-3 contact-me d-flex justify-content-center align-items-center" 
+                            style={{cursor:'pointer'}}
+                            onClick={() => scroller.scrollTo('ContactMe', {
+                                smooth: true,
+                                offset: -150,
+                                duration: 200,
+                            })}>Contact Me
+                        </a>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

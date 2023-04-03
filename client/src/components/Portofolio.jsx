@@ -38,10 +38,14 @@ function Portofolio() {
                                     </div>
                                     <div>
                                         <p className='py-0 my-0'>: ReacJs, MapBox.</p>
-                                        <p className='py-0 my-0'>: Go (Echo, GORM, Clean Architecture, Go Mail), Midtrans, MySQL.</p>
+                                        <p className='py-0 my-0'>: Go (Echo, JWT, GORM, Clean Architecture, Go Mail), Midtrans, MySQL.</p>
                                         <p className='py-0 my-0'>: Register Email Confirmation, Search and Pick Location, Display Nearby Restaurant, Payment, Payment Email Confirmation. </p>
                                     </div>
+                                </div>
 
+                                <div className='d-flex flex-row mt-1' style={{columnGap:'20px'}}>
+                                    <a href='https://waysfood-three.vercel.app/' target={'_blank'} className='py-0 my-0'>Deploy Link</a>
+                                    <a href='https://github.com/nagetpresto/waysfood_be_fe' target={'_blank'} className='py-0 my-0'>Repo Link</a>
                                 </div>
                             </Row>
                         </Row>
@@ -69,10 +73,13 @@ function Portofolio() {
                                     </div>
                                     <div>
                                         <p className='py-0 my-0'>: ReacJs.</p>
-                                        <p className='py-0 my-0'>: Go (Echo, GORM, Clean Architecture, Go Mail), Midtrans, MySQL.</p>
+                                        <p className='py-0 my-0'>: Go (Echo, JWT, GORM, Clean Architecture, Go Mail), Midtrans, MySQL.</p>
                                         <p className='py-0 my-0'>: Register Email Confirmation, Payment, Payment Email Confirmation. </p>
                                     </div>
-
+                                </div>
+                                <div className='d-flex flex-row mt-1' style={{columnGap:'20px'}}>
+                                    <a href='https://waysbeans-deploy-olive.vercel.app/' target={'_blank'} className='py-0 my-0'>Deploy Link</a>
+                                    <a href='https://github.com/nagetpresto/waysbeans_deploy' target={'_blank'} className='py-0 my-0'>Repo Link</a>
                                 </div>
                             </Row>
                         </Row>

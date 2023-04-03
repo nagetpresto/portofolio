@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import About from "../components/About";
 import Portofolio from "../components/Portofolio";
 import Project from "../components/Project";
+import ContactMe from "../components/ContactMe";
 
 function Home() {
     return(
@@ -10,6 +11,7 @@ function Home() {
             <About/>
             <Portofolio/>
             <Project/>
+            <ContactMe/>
         </>
     )
 }

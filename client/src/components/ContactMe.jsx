@@ -3,35 +3,19 @@ import AOS from 'aos';
 import { useEffect, useState } from "react";
 import {Container, Row, Col, Button, Card} from 'react-bootstrap';
 
-function About() {
+function ContactMe() {
     useEffect(() => {
         AOS.init();
     })
 
-    const Download = () => {
-        // using Java Script method to get PDF file
-        fetch('resume.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'resume.pdf';
-                alink.click();
-                alink.remove();
-            })
-        })
-    }
-
     return(
-        <Container id="About" className="py-5 about" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">   
-            <h1 className='text-center'>About Me</h1>  
+        <Container id="ContactMe" className="py-5 about" data-aos="fade-up" data-aos-delay="200">   
+            <h1 className='text-center'>Contact Me</h1>  
             <div className='text-center d-flex justify-content-center'>
                 <hr className='col-3'/>
             </div>     
             <Row className='mt-5'>
-                <Col xs={5} md={5} xl={5} className="about-left d-flex justify-content-center align-items-center">
+                {/* <Col xs={5} md={5} xl={5} className="about-left d-flex justify-content-center align-items-center">
                     <Row className="">
                         <Card className='about-card px-0 mx-0'>
                             <Card.Img className='about-card-img' variant="top" src="/photo.jpg" />
@@ -65,16 +49,15 @@ function About() {
                                 <a className="github" target="_blank" href="https://github.com/nagetpresto/"><i class="fab fa-github" aria-hidden="true"></i></a>
                                 <a className="instagram" target="_blank" href="https://www.instagram.com/bilqistaz/"><i class="fab fa-instagram"></i></a>
                                 <div className="cv-link py-1">
-                                    <p className="cv">Download My CV<i onClick={Download} style={{cursor:'pointer'}} className="fa fa-download"></i></p>
-                                    {/* https://drive.google.com/drive/folders/1TOOv0XzEWZklDXCvImMXM8ejUSifSTBw?usp=sharing */}
+                                    <p className="cv">Download My CV<a href="https://drive.google.com/drive/folders/1TOOv0XzEWZklDXCvImMXM8ejUSifSTBw?usp=sharing"><i class="fa fa-download"></i></a></p>
                                 </div>
                             </span>
                         </div>
                     </Row>
-                </Col>
+                </Col> */}
             </Row>
         </Container>
     )
 }
 
-export default About
+export default ContactMe
