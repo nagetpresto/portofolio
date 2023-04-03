@@ -17,7 +17,7 @@ function About() {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'resume.pdf';
+                alink.download = 'Bilqist Imeilia Az ZAhra_Resume.pdf';
                 alink.click();
                 alink.remove();
             })
@@ -26,9 +26,9 @@ function About() {
 
     return(
         <Container id="About" className="py-5 about" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">   
-            <h1 className='text-center'>About Me</h1>  
+            <h3 className='text-center'>About Me</h3>  
             <div className='text-center d-flex justify-content-center'>
-                <hr className='col-3'/>
+                <hr className='col-2 mt-0'/>
             </div>     
             <Row className='mt-5'>
                 <Col xs={5} md={5} xl={5} className="about-left d-flex justify-content-center align-items-center">

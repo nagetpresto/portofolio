@@ -10,11 +10,11 @@ function Portofolio() {
 
     return(
         <Container fluid id="Portofolio" className="bg-light py-5 about" data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-center">   
-            <h1 className='text-center'>Portofolio</h1>  
+            <h3 className='text-center'>Portofolio</h3>  
             <div className='text-center d-flex justify-content-center'>
-                <hr className='col-3'/>
+                <hr className='col-2 mt-0'/>
             </div>     
-            <Row className='mt-5 d-flex justify-content-center'>
+            <Row className='mt-2 d-flex justify-content-center'>
                 <Carousel>
                     <Carousel.Item>
                         <Row className='py-5 d-flex justify-content-center align-items-center'>

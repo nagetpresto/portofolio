@@ -9,11 +9,14 @@ function Project() {
     })
 
     return(
-        <Container id="Project" className="py-5 about" data-aos="fade-up" data-aos-delay="200">   
-            <h1 className='text-center'>Project</h1>  
+        <Container id="Project" className="py-5 project" data-aos="fade-up" data-aos-delay="200">   
+            <h3 className='text-center'>Project</h3>  
             <div className='text-center d-flex justify-content-center'>
-                <hr className='col-3'/>
-            </div>     
+                <hr className='col-2 mt-0'/>
+            </div>
+            <p className='text-center'>These are several projects that I have completed to provide me
+                to have a more practical experience with teamwork and collaborations. Most of them
+                are projects during my college life.</p>   
             <Row className='mt-5'>
                 {/* <Col xs={5} md={5} xl={5} className="about-left d-flex justify-content-center align-items-center">
                     <Row className="">
